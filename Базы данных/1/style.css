@@ -1,0 +1,35 @@
+body {
+    background-color: #232323;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+}
+
+#registration_form_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+#registration_form_container h2 {
+    color: white;
+}
+
+#registration_form {
+    width: 400px;
+    padding: 10px;
+    background-color: gray;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    box-shadow: 10px 15px 10px;
+}
+
+#registration_form button {
+    height: 50px;
+}
+
+#registration_form_is_subscriber {
+    width: 150px;
+    display: flex;
+    flex-direction: inherit;
+}

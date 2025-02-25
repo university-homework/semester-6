@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Анкета</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <div id="registration_form_container">
+        <h2>Форма регистрации</h2>
+        <form id="registration_form" action="" method="GET">
+            <label for="name"><strong>Логин:</strong></label>
+            <input id="name" type="text">
+
+            <label for="password"><strong>Пароль:</strong></label>
+            <input id="password" type="password">
+
+            <label for="password_confirmation"><strong>Подтверждение пароля:</strong></label>
+            <input id="password_confirmation" type="password">
+
+            <label for="email"><strong>Email:</strong></label>
+            <input id="email" type="email">
+
+            <strong>Хотите подписаться на рассылку?</strong>
+            <div id="registration_form_is_subscriber">
+                <label for="subscriber">Да</label>
+                <input id="subscriber" type="radio" value="Да">
+                <label for="not_subscriber">Нет</label>
+                <input id="not_subscriber" type="radio" value="Нет">
+            </div>
+
+            <label for="born_date"><strong>Дата рождения:</strong></label>
+            <input id="born_date" type="date">
+
+            <label for="message"><strong>Описание:</strong></label>
+            <textarea id="message"></textarea>
+
+            <button type="submit">Отправить</button>
+        </form>
+    </div>
+</body>
+</html>
