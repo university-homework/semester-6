@@ -61,7 +61,7 @@ class Chessboard {
 }
 
 class Knight {
-    final int[][] moves = {{2, 1}, {1, 2}, {2, -1}, {-1, 2}};
+    final int[][] moves = {{2, 1}, {1, 2}};
     int x, y;
 
     Knight(int x, int y) {

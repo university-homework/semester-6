@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    touch-action: none;
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
+
+canvas {
+    display: block;
+    background-color: #222;
+}
+
+#ui {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    color: white;
+    font-size: 16px;
+    user-select: none;
+}
+
+#restart {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    display: none;
+}
+
+#gameOver {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 24px;
+    text-align: center;
+    display: none;
+}
