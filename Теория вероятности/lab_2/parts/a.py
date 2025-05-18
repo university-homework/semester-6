@@ -1,4 +1,4 @@
-from math import sqrt, erf
+from math import erf, sqrt
 
 
 def a(std_error):
